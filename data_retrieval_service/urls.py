@@ -19,4 +19,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("seismic_drs/", include("seismic_drs.urls")),
+    path("data_processor/", include("data_processor.urls"))
 ]
